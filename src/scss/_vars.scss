@@ -1,0 +1,53 @@
+/* Color Theme Swatches in Hex */
+$primary: #070707;
+$primary-dark: #000000;
+$primary-light: #303030;
+
+$secondary: #E7D360;
+$secondary-dark: #A68524;
+$secondary-light: #7e7c76; 
+
+$accent: #0E3240;
+$accent-light: #1C6380;
+
+$white-dark: #F2F2F2;
+$white: #FFFFFF;
+
+$black-light: #8C8C8C;
+$black-dark: #212121;
+$black: #363636;
+
+//Font
+  //Font-family
+    @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Monoton&display=swap');
+    @font-face {
+      font-family: 'rr breaver';
+      src: url("https://res.cloudinary.com/dardnms81/raw/upload/v1620263100/twmwmx4v9yr2joyjy75z.ttf") format("truetype");
+   }
+    $font-title: 'rr breaver', sans-serif;
+    $font-text: 'Barlow', sans-serif;
+  
+  //Font-sizes
+    $font-e-small: 0.875rem; //12px
+    $font-small: 1.255rem; //18px
+    $font-medd: 1.5rem; //24px
+    $font-bigger: 2rem; //32px
+    $font-e-bigger: 2.25rem; //36px
+    $font-ex-bigger: 2.625rem; //42px
+  
+  //Font-weight
+    $font-w-e-tiny: 200;
+    $font-w-tiny: 300;
+    $font-w-med:  400;
+    $font-w-bold: 600;
+    $font-w-e-bold: 800;
+
+  //Font-styles
+    $font-italic: italic;
+    $font-default: normal;
+    $font-oblique: oblique;
+
+
+
+
+
